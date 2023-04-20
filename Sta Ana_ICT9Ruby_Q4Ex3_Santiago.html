@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arithmetic Operators</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link href='https://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet'>
+
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/premium-vector/paper-line_77417-515.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: 'Patrick Hand';
+        }
+
+        #Title{
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container" style="font-size: 2em;" align="center">
+        <h1 style="font-size: 80px;" id="Title">JavaScript Arithmetic Operators<h1>
+        <br>
+        <u style="font-size: 80px;"><mark>j = 10, k = 5</mark></u>
+        <br>
+        <br>
+        <ol type="I" style="font-size: 60px;">
+            <li>j + k =<strong id="p1"></strong></li>
+            <li>k - j =<strong id="p2"></strong></li>
+            <li>k * j =<strong id="p3"></strong></li>
+            <li>j / k =<strong id="p4"></strong></li>
+            <li>j % 2 = <strong id="p5"></strong></li>
+        </ol>
+
+        <script type="text/javascript">
+    let j = 10, k = 5;
+
+    let sum = j + k;
+    let diff = k - j;
+    let product = k * j;
+    let quotient = j / k;
+    let remainder = j % 2;
+
+    alert("The sum of two numbers: " + sum + "\n" +
+          "The difference of two numbers: " + diff + "\n" +
+          "The product of two numbers: " + product + "\n" +
+          "The quotient of two numbers: " + quotient + "\n" +
+          "The remainder of two numbers: " + remainder);
+
+    // variable declaration; assignment of values
+    document.getElementById("p1").innerHTML = j + k;
+    document.getElementById("p2").innerHTML = k - j;
+    document.getElementById("p3").innerHTML = k * j;
+    document.getElementById("p4").innerHTML = j / k;
+    document.getElementById("p5").innerHTML = j % 2;
+</script>
+</div>
+</body>
+</html>
